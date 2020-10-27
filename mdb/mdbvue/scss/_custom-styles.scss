@@ -1,0 +1,124 @@
+// Your custom styles
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+.mainContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 33vw;
+    margin-right: 33vw;
+}
+@media only screen and (max-width: 1800px) {
+    .mainContainer {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: calc(50vw - 300px);
+        margin-right: calc(50vw - 300px);
+    }
+}
+@media only screen and (max-width: 600px) {
+    .mainContainer {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+.vertical-middle {
+    margin-top:  calc(45vh - 200px);
+}
+.btn {
+    text-transform: unset !important;
+    font-size: 20px !important;
+}
+h1{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 40pt;
+}
+.homeButton {
+    width: 80%;
+    margin: 10%;
+}
+.navButton {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.dataTables_info {
+    display: none !important;
+}
+
+.button:hover {
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16),
+     0 2px 15px 0 rgba(0, 0, 0, 0.12);
+}
+.button:active {
+    background-color: rgba($color: lightblue, $alpha: 0.2);
+}
+
+.o-combobox {
+    max-width: 100px;
+}
+
+.o-combobox__input {
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 15px;
+    -webkit-appearance: none;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+    text-align: left;
+    background: white;
+}
+
+.o-combobox__input:focus {
+    box-shadow: none;
+    -webkit-appearance: none;
+    outline: 0;
+}
+
+.o-date-list {
+
+    margin-top: 0.5rem;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 0;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+.o-date-list__item {
+    margin: 0;
+    list-style-type: none;
+    padding: 0.5rem;
+    font-size: 14px;
+
+    display: block;
+
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.o-date-list__item:hover {
+    opacity: 0.5;
+}
+
+.o-date-list__item--selected {
+    background: rgba(0, 0, 0, 0.1);
+}
